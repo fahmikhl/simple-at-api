@@ -1,0 +1,48 @@
+{
+  "name": "simple-at-api",
+  "version": "1.0.0",
+  "description": "simple-at-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./__tests__/cypress/POSTcypress.js --config ./jest.config.js --forceExit --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahmikhl/simple-at-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-lodash": "^3.3.4",
+    "chai": "^4.3.4",
+    "chai-arrays": "^2.2.0",
+    "chai-sorted": "^0.2.0",
+    "chai-things": "^0.2.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "i": "^0.3.6",
+    "jest-expect-message": "^1.0.2",
+    "jest-html-reporters": "^2.1.2",
+    "jest-json-schema": "^5.0.0",
+    "jest-runner-concurrent": "^0.1.1",
+    "lodash": "^4.17.21",
+    "npm": "^6.14.12",
+    "supertest": "^6.1.3",
+    "write-json-file": "^4.3.0"
+  },
+  "dependencies": {
+    "jest": "^26.6.3",
+    "randomstring": "^1.1.5"
+  }
+}
