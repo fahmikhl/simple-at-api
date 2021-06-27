@@ -14,7 +14,5 @@ describe('API Automation Test - Cypress', () => {
         expect(response.body.title).toEqual(data.title);
         expect(response.body.body).toEqual(data.body);
         expect(response.body.userId).toEqual(data.userId);
-
-
     });
 });

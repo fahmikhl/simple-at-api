@@ -2,3 +2,4 @@ node_modules
 package-lock.json
 tokenPool.json
 jest_html_reporters.html 
+package.json
